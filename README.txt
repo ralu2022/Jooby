@@ -1,5 +1,31 @@
-The project is structured on 4 main classes: Applicant, Employer, JobListing and User. 
+Structure of the project:
+--------------------------
+A. main classes
+	- Applicant
+	- Employer
+	- JobListing
+	- User
 
-The idea was to use also databases with Postgresql and combine the classes by foreign keys. Also, I have started to work on the user interface. 
+B. database classes
+	- JdbcApplicantJobListing
+	- JdbcApplicantRepository
+	- JdbcEmployerRepository
+	- JdbcJobListingEmployersRepository
+	- JdbcJobListingRepository
+	- JdbcUserRepository
 
-The class User was added for login purposes.  
+C. jsp files
+	- main pages;
+	- user pages;
+
+D. Testing
+	-EmployerTest
+
+Data structure used: 
+-------------------
+
+List<>;
+
+Logic:
+-------
+The main purpose of how I approached the solution was to convey the idea that I understand the connection between Java language, databases and .jsp files. Reason is that in the future I would like to combine back-end with front-end, as I do not see myself working just on one of the both :)
